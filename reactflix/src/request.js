@@ -9,3 +9,5 @@ const requests = {
     fetchRomance: `/discover/movie?api_key=${API_Key}&with_genre=10749`,
     fetchDoc: `/discover/movie?api_key=${API_Key}&with_genre=99`,
 }
+
+export default requests;
